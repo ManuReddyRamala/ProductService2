@@ -95,6 +95,8 @@ public class UserService {
        if(optionalToken.isEmpty())
        {
            throw new RuntimeException("Token not found");
+
+           
        }
        //tokenRepo.delete(optionalToken.get());
         Token t=optionalToken.get();
